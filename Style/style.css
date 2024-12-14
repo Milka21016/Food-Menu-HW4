@@ -1,0 +1,71 @@
+.body-color
+{
+    background-color: palevioletred;
+    margin: auto 0px;
+}
+.container
+{
+
+}
+.container1
+{
+    padding: 20px 450px;
+    
+}
+.group_image
+{
+    background: transparent;
+    border: none;
+}
+button
+{
+    background: transparent;
+    padding: 5px;
+    margin-top: 30px;
+    display: inline-block;
+    border: 2px solid transparent;
+
+}
+button:hover
+{
+background-color: black;
+color: white;
+
+}
+
+#food.m
+{
+padding: 20px 10px;
+width: 200px;
+border-radius: 20px;
+}
+.form1
+{
+   padding: 20px;
+   border-radius: 50px;
+}
+.block_food
+{
+color: gray;
+}
+
+.text-food
+{
+    text-align: center;
+}
+.eat
+{
+    display: inline;
+}
+.image-container
+{
+    background-color: gray;
+}
+.block_food.active
+{
+ background-color: black;
+}
+.image-container
+{
+background-color: orange;
+}
