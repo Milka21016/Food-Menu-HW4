@@ -4,15 +4,13 @@
     background-color: #F7B3B3;
     min-width: 200px;
 }
+
 .container
-{
- padding: 20px 40px;
-}
-.container1
 {
     margin: 50px 80px;
     padding: 50px 60px;
     border-radius: 30px;
+    width: 380px;
     color: black;
     background-color: white;
     text-align: center;
@@ -56,16 +54,11 @@ label
     
 
 }
-.block_food_active
-{
-
-}
 .block_food
 {
     display: inline-block;
     vertical-align: middle;
     border-radius: 20px;
-    
     
 }
 .image-container
