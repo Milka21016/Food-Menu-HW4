@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./Style/style.css">
 </head>
 <body class="body-color">
@@ -13,9 +16,9 @@
         <button class="group_image">
           <img src="./Image/Group.png" alt="Group">
         </button>
-        <h1>Menu</h1>
+        <h1 class="text-fon">Menu</h1>
         <form action="">
-            <label for="food.m"></label>
+            <label for="form"></label>
             <div class="form1">
         <input type="text" id="food.m" placeholder="Search food here">
         </div>
@@ -24,23 +27,26 @@
         <br>
         <div class="category">
         <!--Food-->
-        <div class="block_food active">
-        <div class="image-container">
-            <img src="./Image/BigMac.png" alt="BigMac">
+        <div>
+        <div class="block_food">
+            <div class="image-container_active">
+            <img src="./Image/food.png" alt="food">
         </div>
         <div class="text-food">
-            <h4>food</h4>
+            <h4 class="text-fon">food</h4>
         </div>
+    </div>
         <!--drinks-->
         <div class="block_food">
             <div class="image-container">
                 <img src="./Image/drinks.png" alt="drinks">
-            </div>
             <div class="text-food">
                 <h4>drinks</h4>
             </div>
             </div>
+            </div>
             <!--desert-->
+            <div>
             <div class="block_food">
             <div class="image-container">
                 <img src="./Image/desert.png" alt="desert">
@@ -48,6 +54,7 @@
             <div class="text-food">
                <h4>sweet</h4>  
             </div>
+        </div>
             <br>
             <h2 class="category-title">Burger</h2>
             <br>
@@ -55,10 +62,10 @@
         <div>
             <img src=".//Image/BigMac.png" alt="BigMac">
         </div>
-        <div>
+        <div class="name-burger">
             <p>Big Mac</p>
         </div>
-        <div>
+        <div class="price">
             <p>Rs 240</p>
         </div>
         </div>
@@ -66,10 +73,10 @@
         <div>
             <img src=".//Image/KFCdouble.png" alt="KFCdouble">
         </div>
-        <div>
+        <div class="name-burger">
             <p>KFC Double</hp>
         </div>
-        <div>
+        <div class="price">
             <p>Rs 252</p>
         </div>
         <div class="eat">
@@ -77,10 +84,10 @@
         <div>
             <img src=".//Image/Fishburger.png" alt="Fishburger">
         </div>
-        <div>
+        <div class="name-burger">
             <p>Fish Burger</p>
         </div>
-        <div>
+        <div class="price">
             <p>Rs 220</hp>
         </div>
         </div> 

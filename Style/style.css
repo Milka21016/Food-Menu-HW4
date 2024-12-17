@@ -1,71 +1,105 @@
 .body-color
 {
-    background-color: palevioletred;
     margin: auto 0px;
+    background-color: #F7B3B3;
+    min-width: 200px;
 }
 .container
 {
-
+ padding: 20px 40px;
 }
 .container1
 {
-    padding: 20px 450px;
-    
+    margin: 50px 80px;
+    padding: 50px 60px;
+    border-radius: 30px;
+    color: black;
+    background-color: white;
+    text-align: center;
 }
 .group_image
 {
-    background: transparent;
-    border: none;
-}
-button
-{
-    background: transparent;
-    padding: 5px;
-    margin-top: 30px;
-    display: inline-block;
-    border: 2px solid transparent;
+background-color: transparent;
+border: none;
 
-}
-button:hover
-{
-background-color: black;
-color: white;
-
-}
-
-#food.m
-{
-padding: 20px 10px;
-width: 200px;
-border-radius: 20px;
 }
 .form1
 {
-   padding: 20px;
-   border-radius: 50px;
+border-radius: 13px;
+height: 44px;
+width: 316px;
+background-color: #EFEFEF;
 }
-.block_food
-{
-color: gray;
-}
-
 .text-food
 {
     text-align: center;
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
 }
-.eat
+
+.text-fon
 {
-    display: inline;
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+}
+label
+{
+    background-color: transparent;
+    border: none;
+}
+.category
+{
+    
+
+}
+.block_food_active
+{
+
+}
+.block_food
+{
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 20px;
+    
+    
 }
 .image-container
 {
-    background-color: gray;
+   background-color: #A1B8C7;
+   border-radius: 10px;
+   
 }
-.block_food.active
+.image-container_active
 {
- background-color: black;
+    background-color: #EAE2B7; 
+    border-radius: 10px;
 }
-.image-container
+.eat 
 {
-background-color: orange;
+    background-color: #FFFFFF;
+    padding: 24px 10px;
+}
+.name-burger
+{
+    color: black;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+}
+.price
+{
+    color: #D62828;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    
 }
