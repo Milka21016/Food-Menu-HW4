@@ -8,8 +8,9 @@
 .container
 {
     margin: 50px 80px;
-    padding: 50px 60px;
-    border-radius: 30px;
+    padding: 20px 15px;
+    margin: auto 0px;
+    border-radius: 20px;
     width: 380px;
     color: black;
     background-color: white;
@@ -20,6 +21,13 @@
 background-color: transparent;
 border: none;
 
+}
+input
+{
+    width: 253px;
+    padding: 5px;
+    background: gray;
+    
 }
 .form1
 {
